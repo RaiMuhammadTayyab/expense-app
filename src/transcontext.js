@@ -13,6 +13,8 @@ export const TransactionProvider = ({ children }) => {
     let [state, dispatch] =
         useReducer(
             TransactionReducer, initransaction)
+            
+            
     function addtransaction(transObj){
         dispatch
             ({
